@@ -30,7 +30,7 @@ class NewsContainer extends Component {
       this.setState({
         page: newPage
       }, () => this.fetchNews())
-    } else null;
+    } else return null;
   }
 
   changeData = (data) => {
